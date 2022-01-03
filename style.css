@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    padding: 15px;
+    background-color: darkmagenta;
+    margin: 0 auto;
+    border: 7px solid rgb(12, 11, 11);
+    border-radius: 13px;
+}
+
+h1{
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 4px;
+    font-family: cursive;
+    font-size: 35px;
+    color: rgb(12, 11, 11);
+}
+
+h2{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 28px;
+    color: rgb(12, 11, 11);
+}
+
+#first-interaction{
+    display: none;
+}
+
+#second-interation{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#third-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#checking-boxes{
+    display: none;
+}
+
+#fourth-interaction{
+    display: none;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: rgb(112, 105, 105);
+    width: max-content;
+    margin: 10px;
+}
+
+#img1{
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.fourth-interaction-paragraph{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#fifth-interaction{
+    text-align: right;
+    display: none;
+}
+
+#input-interaction-one{
+    width: 40%;
+    background-color: rgb(184, 177, 177);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: monospace;
+    
+}
+
+#fifth-interaction-input::placeholder{
+    color: rgb(12, 11, 11);
+    opacity: 0.8;
+    font-family: cursive;
+}
+
+#sixth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+.send-icon{
+    background: none;
+    font-size: 28px;
+}
+
+#button1{
+    background: none;
+    border: none;
+}
+#button2{
+    background: none;
+    border: none;
+}
+
+#seventh-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#eighth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#ninth-interaction{
+    text-align: right;
+    display: none;
+}
+
+#input-interaction-two{
+    width: 40%;
+    background-color: rgb(184, 177, 177);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    font-family: monospace;
+    
+}
+
+#tenth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#eleventh-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+#twelvth-interaction{
+    padding: 5px;
+    width: max-content;
+    background-color: rgb(112, 105, 105);
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+
+
+
+@media only screen and (max-width:990px)  {
+
+    body{
+       width: max-content;
+       padding: 15px;
+       margin: 0 auto;
+    }
+
+    #input-interaction-one{
+        width: 85%;
+    }
+
+    #input-interaction-two{
+        width: 85%;
+    }
+
+}
