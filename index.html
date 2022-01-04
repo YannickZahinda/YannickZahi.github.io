@@ -11,6 +11,9 @@
 <body>
     <div class="container">
         <h1>I got a story to tell you</h1>
+        <audio controls = "controls" autoplay loop id="audio" style="display: none;">
+            <source src="./Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing.mp4">
+        </audio>
         <div id="first-interaction">
             <h2>Do you wanna hear it Babe ?</h2>
         </div>
@@ -51,5 +54,14 @@
     </div>
     
     <script src="./app.js"></script>
+    <script>
+
+        setInterval((function(){
+            const Audio = document.getElementById("audio");
+            Audio.remove();
+        }), 30000);
+
+
+    </script>
 </body>
 </html>
